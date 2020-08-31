@@ -1,0 +1,174 @@
+@media screen and (min-width: 320px) and (max-width:570px) {
+
+    .userboxes {
+        position: absolute;
+        right: 0;
+        width: 94%;
+        height: 100%;
+    }
+
+    .boxes {
+        height: 70%;
+        width: 100%;
+        background-color: rebeccapurple;
+        margin: 12% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user {
+        background-color: lightgrey;
+        height: 90%;
+        width: 30%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+
+    .stats {
+        background-color: grey;
+        height: 90%;
+        width: 70%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width:870px) {
+
+    .userboxes {
+        position: absolute;
+        right: 0;
+        width: 94%;
+        height: 100%;
+    }
+
+    .boxes {
+        height: 70%;
+        width: 100%;
+        background-color: rebeccapurple;
+        margin: 12% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user {
+        background-color: lightgrey;
+        height: 90%;
+        width: 30%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+
+    .stats {
+        background-color: grey;
+        height: 90%;
+        width: 70%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 871px) and (max-width:1080px) {
+
+    .userboxes {
+        position: absolute;
+        right: 0;
+        width: 94%;
+        height: 100%;
+    }
+
+    .boxes {
+        height: 70%;
+        width: 100%;
+        background-color: rebeccapurple;
+        margin: 12% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user {
+        background-color: lightgrey;
+        height: 90%;
+        width: 30%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+
+    .stats {
+        background-color: grey;
+        height: 90%;
+        width: 70%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width:1440px) {
+
+    .userboxes {
+        position: absolute;
+        right: 0;
+        width: 94%;
+        height: 100%;
+    }
+
+    .boxes {
+        height: 70%;
+        width: 100%;
+        background-color: rebeccapurple;
+        margin: 12% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user {
+        background-color: lightgrey;
+        height: 90%;
+        width: 30%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+
+    .stats {
+        background-color: grey;
+        height: 90%;
+        width: 70%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width:2570px) {
+
+    .userboxes {
+        position: absolute;
+        right: 0;
+        width: 94%;
+        height: 100%;
+    }
+
+    .boxes {
+        height: 70%;
+        width: 100%;
+        background-color: rebeccapurple;
+        margin: 12% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user {
+        background-color: lightgrey;
+        height: 90%;
+        width: 30%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+
+    .stats {
+        background-color: grey;
+        height: 90%;
+        width: 70%;
+        margin: 2%;
+        border-radius: 5px;
+    }
+}

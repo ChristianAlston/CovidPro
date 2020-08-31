@@ -1,0 +1,289 @@
+@media screen and (min-width: 320px) and (max-width: 570px) {
+
+    .signuppage {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 94%;
+    }
+
+    .signupbox {
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .block {
+        height: 10%;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 0 50px 0 0;
+    }
+
+    .create {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .signupform {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 60%;
+        width: 80%;
+    }
+
+    .info {
+        color: lightgrey;
+    }
+
+    input {
+        margin: 14px 0;
+    }
+
+    .submit {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 870px) {
+
+    .signuppage {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 94%;
+    }
+
+    .signupbox {
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .block {
+        height: 10%;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 0 50px 0 0;
+    }
+
+    .create {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .signupform {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 60%;
+        width: 80%;
+    }
+
+    .info {
+        color: lightgrey;
+    }
+
+    input {
+        margin: 14px 0;
+    }
+
+    .submit {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 871px) and (max-width: 1080px) {
+
+    .signuppage {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 94%;
+    }
+
+    .signupbox {
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .block {
+        height: 10%;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 0 50px 0 0;
+    }
+
+    .create {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .signupform {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 60%;
+        width: 80%;
+    }
+
+    .info {
+        color: lightgrey;
+    }
+
+    input {
+        margin: 14px 0;
+    }
+
+    .submit {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
+
+    .signuppage {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 94%;
+    }
+
+    .signupbox {
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .block {
+        height: 10%;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 0 50px 0 0;
+    }
+
+    .create {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .signupform {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 60%;
+        width: 80%;
+    }
+
+    .info {
+        color: lightgrey;
+    }
+
+    input {
+        margin: 14px 0;
+    }
+
+    .submit {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2570px) {
+
+    .signuppage {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 94%;
+    }
+
+    .signupbox {
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+    }
+
+    .block {
+        height: 10%;
+        width: 100%;
+        background-color: lightgrey;
+        border-radius: 0 50px 0 0;
+    }
+
+    .create {
+        text-align: center;
+    }
+
+    .avatar {
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .signupform {
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 60%;
+        width: 80%;
+    }
+
+    .info {
+        color: lightgrey;
+    }
+
+    input {
+        margin: 14px 0;
+    }
+
+    .submit {
+        margin: 0 auto;
+    }
+}

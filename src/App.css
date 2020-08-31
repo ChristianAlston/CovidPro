@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(248, 242, 253);
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Main {
+  background-color: rgb(156, 34, 255);
+  height: 90vh;
+  width: 90%;
+  position: relative;
+  margin: 2% auto;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px rgb(222, 211, 230);
+  padding: 0;
+}
+
+.number {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  font-size: 500px;
+  color: rgb(106, 1, 148);
+  z-index: 1;
+  font-weight: 100;
+  height: auto;
+}

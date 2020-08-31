@@ -1,0 +1,399 @@
+@media screen and (min-width: 320px) and (max-width: 570px) {
+
+    .dashbox {
+        width: 94%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .headerbox {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .headerbox::after {
+        content: '';
+        width: 85%;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .searchbar {
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    .bottombox {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        height: 60%;
+        width: 90%;
+        background-color: rgb(106, 1, 148);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+    }
+
+    .feed {
+        background-color: rgb(106, 1, 148);
+        height: 100%;
+        width: 70%;
+        border-radius: 50px 20px 20px 50px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .feed::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+
+    }
+
+    .cardbox {
+        background-color: whitesmoke;
+        height: 90%;
+        width: 25%;
+        border-radius: 20px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .cardbox::-webkit-scrollbar {
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+    }
+
+}
+
+@media screen and (min-width: 571px) and (max-width: 870px) {
+
+    .dashbox {
+        width: 94%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .headerbox {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .headerbox::after {
+        content: '';
+        width: 85%;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .searchbar {
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    .bottombox {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        height: 60%;
+        width: 90%;
+        background-color: rgb(106, 1, 148);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+    }
+
+    .feed {
+        background-color: rgb(106, 1, 148);
+        height: 100%;
+        width: 70%;
+        border-radius: 50px 20px 20px 50px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .feed::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+
+    }
+
+    .cardbox {
+        background-color: whitesmoke;
+        height: 90%;
+        width: 25%;
+        border-radius: 20px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .cardbox::-webkit-scrollbar {
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+    }
+
+}
+
+@media screen and (min-width: 871px) and (max-width: 1080px) {
+
+    .dashbox {
+        width: 94%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .headerbox {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .headerbox::after {
+        content: '';
+        width: 85%;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .searchbar {
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    .bottombox {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        height: 60%;
+        width: 90%;
+        background-color: rgb(106, 1, 148);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+    }
+
+    .feed {
+        background-color: rgb(106, 1, 148);
+        height: 100%;
+        width: 70%;
+        border-radius: 50px 20px 20px 50px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .feed::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+
+    }
+
+    .cardbox {
+        background-color: whitesmoke;
+        height: 90%;
+        width: 25%;
+        border-radius: 20px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .cardbox::-webkit-scrollbar {
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+    }
+
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
+
+    .dashbox {
+        width: 94%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .headerbox {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .headerbox::after {
+        content: '';
+        width: 85%;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .searchbar {
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    .bottombox {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        height: 60%;
+        width: 90%;
+        background-color: rgb(106, 1, 148);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+    }
+
+    .feed {
+        background-color: rgb(106, 1, 148);
+        height: 100%;
+        width: 70%;
+        border-radius: 50px 20px 20px 50px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .feed::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+
+    }
+
+    .cardbox {
+        background-color: whitesmoke;
+        height: 90%;
+        width: 25%;
+        border-radius: 20px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .cardbox::-webkit-scrollbar {
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+    }
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2570px) {
+
+    .dashbox {
+        width: 94%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        padding: 10px;
+    }
+
+    .headerbox {
+        height: 30%;
+        width: 100%;
+        display: flex;
+    }
+
+    .headerbox::after {
+        content: '';
+        width: 85%;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .searchbar {
+        width: 30%;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    .bottombox {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        height: 60%;
+        width: 90%;
+        background-color: rgb(106, 1, 148);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 5px;
+    }
+
+    .feed {
+        background-color: rgb(106, 1, 148);
+        height: 100%;
+        width: 70%;
+        border-radius: 50px 20px 20px 50px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .feed::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+
+    }
+
+    .cardbox {
+        background-color: whitesmoke;
+        height: 90%;
+        width: 25%;
+        border-radius: 20px;
+        margin: auto;
+        overflow-y: scroll;
+    }
+
+    .cardbox::-webkit-scrollbar {
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+    }
+
+}

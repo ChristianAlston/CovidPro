@@ -1,0 +1,8 @@
+img {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    height: 60%;
+    width: 40%;
+    border-radius: 50px;
+}
