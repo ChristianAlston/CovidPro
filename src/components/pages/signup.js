@@ -6,7 +6,6 @@ class Signup extends Component {
     render() {
         return (
             <div>
-                <h1 className='number'>04</h1>
                 <div className='signuppage'>
                     <div className='signupbox'>
                         <div className='block'></div>

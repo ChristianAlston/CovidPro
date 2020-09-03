@@ -15,24 +15,123 @@ input:focus {
   outline: none;
 }
 
-.Main {
-  background-color: rgb(156, 34, 255);
-  height: 90vh;
-  width: 90%;
-  position: relative;
-  margin: 2% auto;
-  border-radius: 50px;
-  box-shadow: 0px 10px 10px rgb(222, 211, 230);
-  padding: 0;
+@media screen and (min-width: 320px) and (max-width: 570px) {
+
+  .Main {
+    background-color: rgb(156, 34, 255);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 10px 10px rgb(222, 211, 230);
+    padding: 0;
+  }
+
+  .number {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    font-size: 150px;
+    color: rgb(106, 1, 148);
+    z-index: 1;
+    font-weight: 100;
+    height: auto;
+  }
 }
 
-.number {
-  position: absolute;
-  left: 10%;
-  bottom: 0;
-  font-size: 500px;
-  color: rgb(106, 1, 148);
-  z-index: 1;
-  font-weight: 100;
-  height: auto;
+@media screen and (min-width: 571px) and (max-width: 870px) {
+
+  .Main {
+    background-color: rgb(156, 34, 255);
+    height: 90vh;
+    width: 90%;
+    position: relative;
+    margin: 2% auto;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgb(222, 211, 230);
+    padding: 0;
+  }
+
+  .number {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 270px;
+    color: rgb(106, 1, 148);
+    z-index: 1;
+    font-weight: 100;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 871px) and (max-width: 1023px) {
+
+  .Main {
+    background-color: rgb(156, 34, 255);
+    height: 90vh;
+    width: 90%;
+    position: relative;
+    margin: 2% auto;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgb(222, 211, 230);
+    padding: 0;
+  }
+
+  .number {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 300px;
+    color: rgb(106, 1, 148);
+    z-index: 1;
+    font-weight: 100;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .Main {
+    background-color: rgb(156, 34, 255);
+    height: 90vh;
+    width: 90%;
+    position: relative;
+    margin: 2% auto;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgb(222, 211, 230);
+    padding: 0;
+  }
+
+  .number {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 340px;
+    color: rgb(106, 1, 148);
+    z-index: 1;
+    font-weight: 100;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2570px) {
+  .Main {
+    background-color: rgb(156, 34, 255);
+    height: 90vh;
+    width: 90%;
+    position: relative;
+    margin: 2% auto;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgb(222, 211, 230);
+    padding: 0;
+  }
+
+  .number {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 400px;
+    color: rgb(106, 1, 148);
+    z-index: 1;
+    font-weight: 100;
+    height: auto;
+  }
 }

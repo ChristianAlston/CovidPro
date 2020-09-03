@@ -8,12 +8,12 @@
     }
 
     .about {
-        width: 40%;
+        width: 90%;
         height: auto;
         position: absolute;
         right: 10%;
         top: 30%;
-        text-align: left;
+        text-align: right;
     }
 
     .heading {
@@ -25,7 +25,7 @@
         background-color: white;
         color: rebeccapurple;
         height: 40px;
-        width: 200px;
+        width: 90%;
         border: none;
         font-weight: bold;
         text-transform: uppercase;
@@ -59,7 +59,7 @@
         background-color: white;
         color: rebeccapurple;
         height: 40px;
-        width: 200px;
+        width: 100%;
         border: none;
         font-weight: bold;
         text-transform: uppercase;
@@ -67,6 +67,8 @@
 }
 
 @media screen and (min-width: 571px) and (max-width: 870px) {
+
+
 
     .page2 {
         position: absolute;
@@ -76,12 +78,12 @@
     }
 
     .about {
-        width: 40%;
-        height: auto;
+        width: 30%;
+        height: 0%;
         position: absolute;
-        right: 10%;
-        top: 30%;
-        text-align: left;
+        right: 4%;
+        top: 20%;
+        text-align: right;
     }
 
     .heading {
@@ -93,7 +95,7 @@
         background-color: white;
         color: rebeccapurple;
         height: 40px;
-        width: 200px;
+        width: 100%;
         border: none;
         font-weight: bold;
         text-transform: uppercase;
@@ -115,7 +117,7 @@
         position: absolute;
         right: 10%;
         top: 30%;
-        text-align: left;
+        text-align: right;
     }
 
     .heading {
@@ -149,7 +151,7 @@
         position: absolute;
         right: 10%;
         top: 30%;
-        text-align: left;
+        text-align: right;
     }
 
     .heading {
@@ -183,7 +185,7 @@
         position: absolute;
         right: 10%;
         top: 30%;
-        text-align: left;
+        text-align: right;
     }
 
     .heading {

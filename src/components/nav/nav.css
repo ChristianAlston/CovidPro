@@ -1,5 +1,7 @@
 @media screen and (min-width: 320px) and (max-width: 570px) {
 
+
+
     .burger {
         height: 20px;
         width: 20px;
@@ -43,6 +45,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        display: none;
     }
 
     .list {
@@ -110,10 +113,10 @@
     .sidenav {
         position: absolute;
         left: 0;
-        width: 6%;
+        width: 10%;
         height: 100%;
         background-color: rgb(255, 255, 255);
-        border-right: 2px solid rgb(158, 158, 158);
+        border-right: 1px solid rgb(158, 158, 158);
         border-radius: 40px 0 0 40px;
         z-index: 1;
         display: flex;
@@ -186,10 +189,10 @@
     .sidenav {
         position: absolute;
         left: 0;
-        width: 6%;
+        width: 10%;
         height: 100%;
         background-color: rgb(255, 255, 255);
-        border-right: 2px solid rgb(158, 158, 158);
+        border-right: 1px solid rgb(158, 158, 158);
         border-radius: 40px 0 0 40px;
         z-index: 1;
         display: flex;
@@ -229,8 +232,8 @@
 @media screen and (min-width: 1081px) and (max-width: 1440px) {
 
     .burger {
-        height: 20px;
-        width: 20px;
+        height: 22px;
+        width: 22px;
         background-color: rebeccapurple;
         border-radius: 5px;
         margin: 25% auto;
@@ -262,7 +265,7 @@
     .sidenav {
         position: absolute;
         left: 0;
-        width: 6%;
+        width: 10%;
         height: 100%;
         background-color: rgb(255, 255, 255);
         border-right: 2px solid rgb(158, 158, 158);
@@ -305,8 +308,8 @@
 @media screen and (min-width: 1441px) and (max-width: 2570px) {
 
     .burger {
-        height: 20px;
-        width: 20px;
+        height: 25px;
+        width: 25px;
         background-color: rebeccapurple;
         border-radius: 5px;
         margin: 25% auto;
@@ -338,7 +341,7 @@
     .sidenav {
         position: absolute;
         left: 0;
-        width: 6%;
+        width: 8%;
         height: 100%;
         background-color: rgb(255, 255, 255);
         border-right: 2px solid rgb(158, 158, 158);
@@ -370,7 +373,7 @@
 
     .link>li>i {
         color: lightgrey;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .link>li>i:hover {

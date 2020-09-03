@@ -3,15 +3,13 @@ import './nav.css'
 import { Link } from 'react-router-dom'
 
 
-
 class Nav extends Component {
     state = {
-        name: 'name',
-        yes: 'nope'
+        visible: true
     }
     render() {
         return (
- 
+
             <div className='sidenav'>
                 <div className='burger'>
                     <div className='line1'></div>
@@ -22,7 +20,6 @@ class Nav extends Component {
                     <Link to='/user'> <a className='link' ><li><i class="fas fa-user"></i></li></a></Link>
                     <Link to='/dash'> <a className='link'><li><i class="fas fa-home"></i></li></a></Link>
                     <Link to='/map'> <a className='link'><li><i class="fas fa-globe"></i></li></a> </Link>
-                    <Link to='/travel'> <a className='link' ><li><i class="fas fa-car"></i></li></a></Link>
                     <Link to='/'> <a className='link'><li><i class="fas fa-sign-out-alt"></i></li></a></Link>
                 </ul>
 

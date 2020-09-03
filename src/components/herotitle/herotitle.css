@@ -1,12 +1,13 @@
-@media screen and (min-width:320px) and (max-width:570px) {
+@media screen and (min-width:320px) and (max-width:670px) {
 
     .box {
         position: absolute;
         top: 40%;
-        left: 18%;
+        left: 10%;
         height: 20vh;
-        width: 35%;
+        width: 90%;
         z-index: 5;
+        padding: 10px;
     }
 
     .box>h1 {
@@ -36,11 +37,11 @@
 
 }
 
-@media screen and (min-width:571px) and (max-width:870px) {
+@media screen and (min-width:671px) and (max-width:870px) {
 
     .box {
         position: absolute;
-        top: 40%;
+        top: 20%;
         left: 18%;
         height: 20vh;
         width: 35%;

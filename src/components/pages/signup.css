@@ -4,27 +4,26 @@
         position: absolute;
         right: 0;
         height: 100%;
-        width: 94%;
+        width: 100%;
     }
 
     .signupbox {
         height: 100%;
-        width: 40%;
+        width: 100%;
         background-color: white;
         position: absolute;
         right: 0;
-        border-radius: 0 50px 50px 0;
     }
 
     .block {
         height: 10%;
         width: 100%;
         background-color: lightgrey;
-        border-radius: 0 50px 0 0;
     }
 
     .create {
         text-align: center;
+        font-size: 25px;
     }
 
     .avatar {
@@ -32,7 +31,7 @@
         width: 90px;
         background-color: black;
         border-radius: 50%;
-        margin: 0 auto;
+        margin: 1% auto;
     }
 
     .signupform {
@@ -45,6 +44,7 @@
 
     .info {
         color: lightgrey;
+        font-size: 16px;
     }
 
     input {
@@ -62,23 +62,23 @@
         position: absolute;
         right: 0;
         height: 100%;
-        width: 94%;
+        width: 95%;
     }
 
     .signupbox {
         height: 100%;
-        width: 40%;
+        width: 100%;
         background-color: white;
         position: absolute;
         right: 0;
-        border-radius: 0 50px 50px 0;
+        border-radius: 20px 50px 50px 20px;
     }
 
     .block {
         height: 10%;
         width: 100%;
         background-color: lightgrey;
-        border-radius: 0 50px 0 0;
+        border-radius: 20px 50px 0px 0px;
     }
 
     .create {
@@ -120,12 +120,12 @@
         position: absolute;
         right: 0;
         height: 100%;
-        width: 94%;
+        width: 95%;
     }
 
     .signupbox {
         height: 100%;
-        width: 40%;
+        width: 100%;
         background-color: white;
         position: absolute;
         right: 0;
@@ -183,7 +183,7 @@
 
     .signupbox {
         height: 100%;
-        width: 40%;
+        width: 100%;
         background-color: white;
         position: absolute;
         right: 0;
@@ -241,7 +241,7 @@
 
     .signupbox {
         height: 100%;
-        width: 40%;
+        width: 100%;
         background-color: white;
         position: absolute;
         right: 0;

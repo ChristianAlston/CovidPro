@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Login from './components/login/loginstuff'
 import Nav from './components/nav/Nav'
@@ -35,28 +35,30 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className='Main'>
-        <Nav></Nav>
-        <Route exact path= '/' component = {Login} />
-        <Route exact path='/page1' render = {props =>(
-          <React.Fragment>
-            <HeroTitle></HeroTitle>
-            <HeroImage></HeroImage>
-            <h1 className='number'>01</h1>
-            {this.state.names.map(name => <h1 key={name.user}> {name.name} </h1>)}
-          </React.Fragment>
-        )}/>
-        <Route path= '/page2' component= {Page2} />
-        <Route path= '/page3' component= {Page3} />
-        <Route path = '/signup' component={Signup}/>
-        <Route path='/dash' component={UserDash}/>
-        <Route path='/user' component={User}/>
-      </div>
+        <div className='Main'>
+          <Nav></Nav>
+          <Route exact path='/' component={Login} />
+          <Route exact path='/page1' render={props => (
+            <React.Fragment>
+              <HeroTitle></HeroTitle>
+              <HeroImage></HeroImage>
+              <h1 className='number'>01</h1>
+              {this.state.names.map(name => <h1 key={name.user}> {name.name} </h1>)}
+            </React.Fragment>
+          )} />
+          <Route path='/page2' component={Page2} />
+          <Route path='/page3' component={Page3} />
+          <Route path='/signup' component={Signup} />
+          <Route path='/dash' component={UserDash} />
+          <Route path='/user' component={User} />
+          <Route path='/map' component={Globe} ></Route>
+          <Route path='/travel' component={Travel}></Route>
+        </div>
       </Router>
     )
   }
 
-  
+
 }
 
 export default App;
