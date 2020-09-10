@@ -1,14 +1,94 @@
-.mapof {
-    height: 60%;
-    width: 70%;
-    background-color: transparent;
-    position: absolute;
-    top: 10%;
-    left: 20%;
+@media screen and (min-width: 320px) and (max-width: 570px) {
 
+    .mapof {
+        height: 60%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        box-shadow: 0px 10px 10px rebeccapurple;
+        width: 420px;
+        height: 600px;
+        margin: 3% auto;
+    }
 }
 
-iframe {
-    border-radius: 10px;
-    box-shadow: 0px 10px 10px rebeccapurple;
+@media screen and (min-width: 571px) and (max-width: 870px) {
+
+    .mapof {
+        height: 60%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        box-shadow: 0px 10px 10px rebeccapurple;
+        width: 500px;
+        height: 430px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 871px) and (max-width: 1080px) {
+
+    .mapof {
+        height: 40%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        box-shadow: 0px 10px 10px rebeccapurple;
+        width: 700px;
+        height: 520px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
+
+    .mapof {
+        height: 40%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        box-shadow: 0px 10px 10px rebeccapurple;
+        width: 780px;
+        height: 570px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2570px) {
+
+    .mapof {
+        height: 40%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        box-shadow: 0px 10px 10px rebeccapurple;
+        width: 1024px;
+        height: 530px;
+        margin: auto;
+    }
 }

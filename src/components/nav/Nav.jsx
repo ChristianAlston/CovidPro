@@ -17,7 +17,6 @@ class Nav extends Component {
                     <div className='line1'></div>
                 </div>
                 <ul className='list'>
-                    <Link to='/user'> <a className='link' ><li><i class="fas fa-user"></i></li></a></Link>
                     <Link to='/dash'> <a className='link'><li><i class="fas fa-home"></i></li></a></Link>
                     <Link to='/map'> <a className='link'><li><i class="fas fa-globe"></i></li></a> </Link>
                     <Link to='/'> <a className='link'><li><i class="fas fa-sign-out-alt"></i></li></a></Link>

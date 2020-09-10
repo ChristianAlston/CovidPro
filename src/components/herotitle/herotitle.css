@@ -188,3 +188,7 @@
     }
 
 }
+
+.box>button>a {
+    text-decoration: none;
+}

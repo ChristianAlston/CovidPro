@@ -27,8 +27,8 @@
     }
 
     .avatar {
-        height: 90px;
-        width: 90px;
+        height: 50px;
+        width: 50px;
         background-color: black;
         border-radius: 50%;
         margin: 1% auto;
@@ -48,7 +48,8 @@
     }
 
     input {
-        margin: 14px 0;
+        height: 10%;
+        margin: 10px 0;
     }
 
     .submit {
@@ -86,8 +87,8 @@
     }
 
     .avatar {
-        height: 90px;
-        width: 90px;
+        height: 50px;
+        width: 50px;
         background-color: black;
         border-radius: 50%;
         margin: 0 auto;
@@ -102,11 +103,13 @@
     }
 
     .info {
+        font-size: 15px;
         color: lightgrey;
     }
 
     input {
-        margin: 14px 0;
+        height: 7%;
+        margin: 10px 0;
     }
 
     .submit {
@@ -144,11 +147,11 @@
     }
 
     .avatar {
-        height: 90px;
-        width: 90px;
+        height: 60px;
+        width: 60px;
         background-color: black;
         border-radius: 50%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .signupform {
@@ -160,11 +163,13 @@
     }
 
     .info {
+        font-size: 20px;
         color: lightgrey;
     }
 
     input {
-        margin: 14px 0;
+        height: 10%;
+        margin: 10px 0;
     }
 
     .submit {
@@ -202,8 +207,8 @@
     }
 
     .avatar {
-        height: 90px;
-        width: 90px;
+        height: 60px;
+        width: 60px;
         background-color: black;
         border-radius: 50%;
         margin: 0 auto;
@@ -222,7 +227,8 @@
     }
 
     input {
-        margin: 14px 0;
+        height: 10%;
+        margin: 10px 0;
     }
 
     .submit {
@@ -260,8 +266,8 @@
     }
 
     .avatar {
-        height: 90px;
-        width: 90px;
+        height: 70px;
+        width: 70px;
         background-color: black;
         border-radius: 50%;
         margin: 0 auto;
@@ -276,11 +282,13 @@
     }
 
     .info {
+        font-size: 22px;
         color: lightgrey;
     }
 
     input {
-        margin: 14px 0;
+        margin: 10px 0;
+        height: 10%;
     }
 
     .submit {

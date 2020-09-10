@@ -19,9 +19,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
 
-
-
-
     .titlebox {
         position: absolute;
         top: 0%;
@@ -69,7 +66,7 @@
 
     form {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 15%;
         width: 70%;
         text-align: center;
@@ -98,7 +95,7 @@
         font-size: 25px;
     }
 
-    input {
+    .inputOf {
         height: 34px;
         width: 100%;
         margin: 5px 0px;
@@ -106,8 +103,6 @@
         border-radius: 30px;
         border: 1px solid lightgrey;
     }
-
-    input>i {}
 
     button {
         font-weight: 400;
@@ -149,7 +144,7 @@
         position: absolute;
         left: 10%;
         top: 20%;
-        height: 40%;
+        height: 55%;
         width: 40%;
         z-index: 1;
     }
@@ -208,8 +203,8 @@
     }
 
     .circle {
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
         background-color: black;
         border-radius: 50%;
         bottom: 0;
@@ -227,8 +222,8 @@
 
     .account {}
 
-    input {
-        height: 35px;
+    .inputOf {
+        height: 32px;
         width: 100%;
         margin: 15px 0px;
         padding-left: 10px;
@@ -236,7 +231,6 @@
         border: 1px solid lightgrey;
     }
 
-    input>i {}
 
     button {
         font-weight: 400;
@@ -280,7 +274,7 @@
         position: absolute;
         left: 10%;
         top: 20%;
-        height: 30%;
+        height: 40%;
         width: 50%;
         z-index: 1;
     }
@@ -340,8 +334,8 @@
     }
 
     .circle {
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: black;
         border-radius: 50%;
         bottom: 0;
@@ -359,7 +353,7 @@
 
     .account {}
 
-    input {
+    .inputOf {
         height: 38px;
         width: 100%;
         margin: 15px 0px;
@@ -367,8 +361,6 @@
         border-radius: 30px;
         border: 1px solid lightgrey;
     }
-
-    input>i {}
 
     button {
         font-weight: 400;
@@ -489,7 +481,7 @@
 
     .account {}
 
-    input {
+    .inputOf {
         height: 45px;
         width: 80%;
         margin: 15px 0px;
@@ -497,8 +489,6 @@
         border-radius: 30px;
         border: 1px solid lightgrey;
     }
-
-    input>i {}
 
     button {
         font-weight: 400;
@@ -540,7 +530,7 @@
         position: absolute;
         left: 10%;
         top: 20%;
-        height: 30%;
+        height: 35%;
         width: 40%;
         z-index: 1;
     }
@@ -619,7 +609,7 @@
 
     .account {}
 
-    input {
+    .inputOf {
         height: 45px;
         width: 80%;
         margin: 15px 0px;
@@ -627,8 +617,6 @@
         border-radius: 30px;
         border: 1px solid lightgrey;
     }
-
-    input>i {}
 
     button {
         font-weight: 400;
@@ -661,5 +649,28 @@
 
     .signup>span {
         color: rgb(106, 1, 148);
+        text-decoration: inherit;
     }
+
+    .buttons {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+    }
+
+    .buttons>button {
+        width: 80%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+span:hover {
+    color: grey;
+}
+
+button:hover {
+    cursor: pointer;
 }

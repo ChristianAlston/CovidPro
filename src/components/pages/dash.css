@@ -4,12 +4,11 @@
         width: 94%;
         height: 100%;
         position: absolute;
-        right: 0;
         padding: 10px;
     }
 
     .headerbox {
-        height: 30%;
+        height: 20%;
         width: 100%;
         display: flex;
     }
@@ -35,23 +34,16 @@
     }
 
     .bottombox {
-        position: absolute;
         bottom: 5%;
-        left: 5%;
-        height: 60%;
-        width: 90%;
+        height: 70%;
+        width: 100%;
         background-color: rgb(106, 1, 148);
-        border-radius: 50px;
-        display: flex;
-        justify-content: space-between;
-        padding: 7px 5px;
     }
 
     .feed {
         background-color: rgb(106, 1, 148);
         height: 100%;
-        width: 70%;
-        border-radius: 50px 20px 20px 50px;
+        width: 100%;
         margin: auto;
         overflow-y: scroll;
     }
@@ -69,11 +61,70 @@
         border-radius: 20px;
         margin: auto;
         overflow-y: scroll;
+        display: none;
     }
 
     .cardbox::-webkit-scrollbar {
         background-color: white;
         border-radius: 0 30px 30px 0;
+    }
+
+    .yourfeedtitle {
+        text-align: center;
+        color: white;
+    }
+
+    .tweetCard {
+        background-color: white;
+        border-radius: 15px;
+        height: 22vh;
+        width: 98%;
+        margin: 25px auto;
+        position: relative;
+    }
+
+
+    .wrap {
+        padding: 14px 5px;
+        height: 55%;
+        width: 100%;
+    }
+
+    .topblock {
+        height: 13%;
+        width: 100%;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 5px;
+    }
+
+    .fakeName {}
+
+    .fakeTwitter {
+        color: rebeccapurple;
+    }
+
+    .fake {
+        color: rgb(68, 68, 68);
+        font-size: 13px;
+    }
+
+    .icons {
+        display: flex;
+        list-style: none;
+        float: right;
+    }
+
+    .icons>li {
+        margin: 0 10px;
+
+    }
+
+    .icons>li>i {
+        font-size: 10px;
+        color: grey;
     }
 
 }
@@ -115,13 +166,10 @@
     }
 
     .bottombox {
-        position: absolute;
         bottom: 5%;
-        left: 5%;
         height: 60%;
-        width: 90%;
+        width: 100%;
         background-color: rgb(106, 1, 148);
-        border-radius: 50px;
         display: flex;
         justify-content: space-between;
         padding: 7px 5px;
@@ -130,8 +178,7 @@
     .feed {
         background-color: rgb(106, 1, 148);
         height: 100%;
-        width: 70%;
-        border-radius: 50px 20px 20px 50px;
+        width: 90%;
         margin: auto;
         overflow-y: scroll;
     }
@@ -149,11 +196,67 @@
         border-radius: 20px;
         margin: auto;
         overflow-y: scroll;
+        display: none;
     }
 
     .cardbox::-webkit-scrollbar {
         background-color: white;
         border-radius: 0 30px 30px 0;
+    }
+
+    .yourfeedtitle {
+        text-align: center;
+        color: white;
+    }
+
+    .tweetCard {
+        background-color: white;
+        border-radius: 15px;
+        height: 22vh;
+        width: 95%;
+        margin: 10px auto;
+        position: relative;
+    }
+
+
+    .wrap {
+        padding: 12px 2px;
+        height: 60%;
+        width: 100%;
+    }
+
+    .topblock {
+        height: 8%;
+        width: 100%;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .fakeName {}
+
+    .fakeTwitter {
+        color: rebeccapurple;
+    }
+
+    .fake {
+        color: rgb(68, 68, 68);
+    }
+
+    .icons {
+        display: flex;
+        list-style: none;
+        float: right;
+    }
+
+    .icons>li {
+        margin: 0 10px;
+
+    }
+
+    .icons>li>i {
+        color: grey;
     }
 
 }
@@ -210,7 +313,7 @@
     .feed {
         background-color: rgb(106, 1, 148);
         height: 100%;
-        width: 70%;
+        width: 90%;
         border-radius: 50px 20px 20px 50px;
         margin: auto;
         overflow-y: scroll;
@@ -229,11 +332,68 @@
         border-radius: 20px;
         margin: auto;
         overflow-y: scroll;
+        display: none;
     }
 
     .cardbox::-webkit-scrollbar {
         background-color: white;
         border-radius: 0 30px 30px 0;
+    }
+
+    .yourfeedtitle {
+        text-align: center;
+        color: white;
+    }
+
+    .tweetCard {
+        background-color: white;
+        border-radius: 15px;
+        height: 24vh;
+        width: 90%;
+        margin: 10px auto;
+        position: relative;
+    }
+
+
+    .wrap {
+        padding: 14px;
+        height: 57%;
+        width: 100%;
+    }
+
+    .topblock {
+        height: 8%;
+        width: 100%;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 5px;
+    }
+
+    .fakeName {}
+
+    .fakeTwitter {
+        color: rebeccapurple;
+    }
+
+    .fake {
+        color: rgb(68, 68, 68);
+    }
+
+    .icons {
+        display: flex;
+        list-style: none;
+        float: right;
+    }
+
+    .icons>li {
+        margin: 0 10px;
+
+    }
+
+    .icons>li>i {
+        color: grey;
     }
 
 }
@@ -290,10 +450,11 @@
     .feed {
         background-color: rgb(106, 1, 148);
         height: 100%;
-        width: 70%;
+        width: 90%;
         border-radius: 50px 20px 20px 50px;
         margin: auto;
         overflow-y: scroll;
+
     }
 
     .feed::-webkit-scrollbar {
@@ -309,11 +470,69 @@
         border-radius: 20px;
         margin: auto;
         overflow-y: scroll;
+        display: none;
     }
 
     .cardbox::-webkit-scrollbar {
         background-color: white;
         border-radius: 0 30px 30px 0;
+    }
+
+    .yourfeedtitle {
+        text-align: center;
+        color: white;
+    }
+
+    .tweetCard {
+        background-color: white;
+        border-radius: 15px;
+        height: 24vh;
+        width: 90%;
+        margin: 10px auto;
+        position: relative;
+    }
+
+
+    .wrap {
+        padding: 15px;
+        height: 60%;
+        width: 100%;
+    }
+
+    .topblock {
+        height: 8%;
+        width: 100%;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 5px;
+    }
+
+    .fakeName {}
+
+    .fakeTwitter {
+        color: rebeccapurple;
+    }
+
+    .fake {
+        color: rgb(68, 68, 68);
+    }
+
+    .icons {
+        display: flex;
+        list-style: none;
+        float: right;
+    }
+
+    .icons>li {
+        margin: 0 10px;
+
+    }
+
+    .icons>li>i {
+        font-size: 14px;
+        color: grey;
     }
 
 }
@@ -370,10 +589,11 @@
     .feed {
         background-color: rgb(106, 1, 148);
         height: 100%;
-        width: 70%;
+        width: 90%;
         border-radius: 50px 20px 20px 50px;
         margin: auto;
         overflow-y: scroll;
+
     }
 
     .feed::-webkit-scrollbar {
@@ -389,6 +609,7 @@
         border-radius: 20px;
         margin: auto;
         overflow-y: scroll;
+        display: none;
     }
 
     .cardbox::-webkit-scrollbar {
@@ -396,4 +617,60 @@
         border-radius: 0 30px 30px 0;
     }
 
+    .yourfeedtitle {
+        text-align: center;
+        color: white;
+    }
+
+    .tweetCard {
+        background-color: white;
+        border-radius: 15px;
+        height: 27vh;
+        width: 80%;
+        margin: 10px auto;
+        position: relative;
+    }
+
+
+    .wrap {
+        padding: 17px;
+        height: 60%;
+        width: 100%;
+    }
+
+    .topblock {
+        height: 8%;
+        width: 100%;
+        background-color: lightgrey;
+        position: absolute;
+        top: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .fakeName {}
+
+    .fakeTwitter {
+        color: rebeccapurple;
+    }
+
+    .fake {
+        color: rgb(68, 68, 68);
+        font-size: 17px;
+    }
+
+    .icons {
+        display: flex;
+        list-style: none;
+        float: right;
+    }
+
+    .icons>li {
+        margin: 0 10px;
+
+    }
+
+    .icons>li>i {
+        font-size: 15px;
+        color: grey;
+    }
 }

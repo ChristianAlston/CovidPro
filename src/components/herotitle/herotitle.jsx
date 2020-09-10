@@ -8,7 +8,7 @@ class HeroTitle extends Component {
             <div className='box'>
                 <h1>Let's Get You Started With Our Program</h1>
                 <p>Millions of people are with us.</p>
-                <button><Link to='/page2'> Get Started </Link></button>
+                <button><Link to='/page2'><a>Get Started</a>  </Link></button>
             </div>
         )
     }
