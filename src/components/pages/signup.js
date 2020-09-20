@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './signup.css'
-import { reduxForm } from 'redux-form'
 
 class Signup extends Component {
     render() {

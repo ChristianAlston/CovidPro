@@ -48,8 +48,12 @@
     }
 
     input {
-        height: 10%;
         margin: 10px 0;
+        height: 7%;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 50px;
+        border: lightgrey 1px solid;
     }
 
     .submit {
@@ -108,8 +112,12 @@
     }
 
     input {
-        height: 7%;
         margin: 10px 0;
+        height: 7%;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 50px;
+        border: lightgrey 1px solid;
     }
 
     .submit {
@@ -168,8 +176,12 @@
     }
 
     input {
-        height: 10%;
         margin: 10px 0;
+        height: 7%;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 50px;
+        border: lightgrey 1px solid;
     }
 
     .submit {
@@ -227,8 +239,12 @@
     }
 
     input {
-        height: 10%;
         margin: 10px 0;
+        height: 10%;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 50px;
+        border: lightgrey 1px solid;
     }
 
     .submit {
@@ -236,7 +252,7 @@
     }
 }
 
-@media screen and (min-width: 1441px) and (max-width: 2570px) {
+@media screen and (min-width: 1441px) and (max-width: 2670px) {
 
     .signuppage {
         position: absolute;
@@ -289,6 +305,10 @@
     input {
         margin: 10px 0;
         height: 10%;
+        width: 100%;
+        padding-left: 10px;
+        border-radius: 50px;
+        border: lightgrey 1px solid;
     }
 
     .submit {
